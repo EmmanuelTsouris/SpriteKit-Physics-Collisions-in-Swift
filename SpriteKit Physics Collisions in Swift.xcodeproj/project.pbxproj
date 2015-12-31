@@ -21,6 +21,8 @@
 		14D81E011C34F48D00134811 /* PlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D81E001C34F48D00134811 /* PlayerAction.swift */; };
 		14D81E031C34F4A800134811 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D81E021C34F4A800134811 /* Constants.swift */; };
 		14D81E051C34F59200134811 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D81E041C34F59200134811 /* HelperFunctions.swift */; };
+		14D81E081C34FE3B00134811 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 14D81E061C34FE3B00134811 /* LICENSE.md */; };
+		14D81E091C34FE3B00134811 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 14D81E071C34FE3B00134811 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		14D81E001C34F48D00134811 /* PlayerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerAction.swift; sourceTree = "<group>"; };
 		14D81E021C34F4A800134811 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		14D81E041C34F59200134811 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		14D81E061C34FE3B00134811 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		14D81E071C34FE3B00134811 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		14D81DD11C34EFA700134811 = {
 			isa = PBXGroup;
 			children = (
+				14D81E061C34FE3B00134811 /* LICENSE.md */,
+				14D81E071C34FE3B00134811 /* README.md */,
 				14D81DDC1C34EFA700134811 /* SpriteKit Physics Collisions in Swift */,
 				14D81DDB1C34EFA700134811 /* Products */,
 			);
@@ -189,6 +195,8 @@
 				14D81E011C34F48D00134811 /* PlayerAction.swift in Sources */,
 				14D81E031C34F4A800134811 /* Constants.swift in Sources */,
 				14D81E051C34F59200134811 /* HelperFunctions.swift in Sources */,
+				14D81E091C34FE3B00134811 /* README.md in Sources */,
+				14D81E081C34FE3B00134811 /* LICENSE.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
