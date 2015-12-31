@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		14D81DDE1C34EFA700134811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D81DDD1C34EFA700134811 /* AppDelegate.swift */; };
-		14D81DE01C34EFA700134811 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D81DDF1C34EFA700134811 /* GameScene.swift */; };
-		14D81DE21C34EFA700134811 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14D81DE11C34EFA700134811 /* GameScene.sks */; };
 		14D81DE41C34EFA700134811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D81DE31C34EFA700134811 /* Assets.xcassets */; };
 		14D81DE71C34EFA700134811 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D81DE51C34EFA700134811 /* MainMenu.xib */; };
+		14D81DF51C34F3CC00134811 /* damage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14D81DEF1C34F3CC00134811 /* damage.sks */; };
+		14D81DF61C34F3CC00134811 /* exhaust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14D81DF01C34F3CC00134811 /* exhaust.sks */; };
+		14D81DF71C34F3CC00134811 /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14D81DF11C34F3CC00134811 /* explosion.sks */; };
+		14D81DF81C34F3CC00134811 /* missile.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14D81DF21C34F3CC00134811 /* missile.sks */; };
+		14D81DF91C34F3CC00134811 /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D81DF31C34F3CC00134811 /* spaceship.png */; };
+		14D81DFA1C34F3CC00134811 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D81DF41C34F3CC00134811 /* spark.png */; };
+		14D81DFE1C34F46800134811 /* ShipSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D81DFC1C34F46800134811 /* ShipSprite.swift */; };
+		14D81DFF1C34F46800134811 /* SpaceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D81DFD1C34F46800134811 /* SpaceScene.swift */; };
+		14D81E011C34F48D00134811 /* PlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D81E001C34F48D00134811 /* PlayerAction.swift */; };
+		14D81E031C34F4A800134811 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D81E021C34F4A800134811 /* Constants.swift */; };
+		14D81E051C34F59200134811 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D81E041C34F59200134811 /* HelperFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14D81DDA1C34EFA700134811 /* SpriteKit Physics Collisions in Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit Physics Collisions in Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D81DDD1C34EFA700134811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14D81DDF1C34EFA700134811 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		14D81DE11C34EFA700134811 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		14D81DE31C34EFA700134811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14D81DE61C34EFA700134811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		14D81DE81C34EFA700134811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D81DEF1C34F3CC00134811 /* damage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = damage.sks; sourceTree = "<group>"; };
+		14D81DF01C34F3CC00134811 /* exhaust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = exhaust.sks; sourceTree = "<group>"; };
+		14D81DF11C34F3CC00134811 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		14D81DF21C34F3CC00134811 /* missile.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = missile.sks; sourceTree = "<group>"; };
+		14D81DF31C34F3CC00134811 /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship.png; sourceTree = "<group>"; };
+		14D81DF41C34F3CC00134811 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		14D81DFC1C34F46800134811 /* ShipSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipSprite.swift; sourceTree = "<group>"; };
+		14D81DFD1C34F46800134811 /* SpaceScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceScene.swift; sourceTree = "<group>"; };
+		14D81E001C34F48D00134811 /* PlayerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerAction.swift; sourceTree = "<group>"; };
+		14D81E021C34F4A800134811 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		14D81E041C34F59200134811 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,39 @@
 		14D81DDC1C34EFA700134811 /* SpriteKit Physics Collisions in Swift */ = {
 			isa = PBXGroup;
 			children = (
+				14D81DEE1C34F3BD00134811 /* Art */,
 				14D81DDD1C34EFA700134811 /* AppDelegate.swift */,
-				14D81DDF1C34EFA700134811 /* GameScene.swift */,
-				14D81DE11C34EFA700134811 /* GameScene.sks */,
+				14D81E021C34F4A800134811 /* Constants.swift */,
+				14D81E041C34F59200134811 /* HelperFunctions.swift */,
+				14D81DFC1C34F46800134811 /* ShipSprite.swift */,
+				14D81DFD1C34F46800134811 /* SpaceScene.swift */,
+				14D81E001C34F48D00134811 /* PlayerAction.swift */,
 				14D81DE31C34EFA700134811 /* Assets.xcassets */,
+				14D81DFB1C34F40000134811 /* Supporting Files */,
 				14D81DE51C34EFA700134811 /* MainMenu.xib */,
-				14D81DE81C34EFA700134811 /* Info.plist */,
 			);
 			path = "SpriteKit Physics Collisions in Swift";
+			sourceTree = "<group>";
+		};
+		14D81DEE1C34F3BD00134811 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				14D81DF31C34F3CC00134811 /* spaceship.png */,
+				14D81DF21C34F3CC00134811 /* missile.sks */,
+				14D81DEF1C34F3CC00134811 /* damage.sks */,
+				14D81DF41C34F3CC00134811 /* spark.png */,
+				14D81DF11C34F3CC00134811 /* explosion.sks */,
+				14D81DF01C34F3CC00134811 /* exhaust.sks */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+		14D81DFB1C34F40000134811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14D81DE81C34EFA700134811 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +165,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D81DF91C34F3CC00134811 /* spaceship.png in Resources */,
+				14D81DFA1C34F3CC00134811 /* spark.png in Resources */,
+				14D81DF51C34F3CC00134811 /* damage.sks in Resources */,
+				14D81DF61C34F3CC00134811 /* exhaust.sks in Resources */,
 				14D81DE41C34EFA700134811 /* Assets.xcassets in Resources */,
-				14D81DE21C34EFA700134811 /* GameScene.sks in Resources */,
+				14D81DF81C34F3CC00134811 /* missile.sks in Resources */,
+				14D81DF71C34F3CC00134811 /* explosion.sks in Resources */,
 				14D81DE71C34EFA700134811 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14D81DE01C34EFA700134811 /* GameScene.swift in Sources */,
+				14D81DFF1C34F46800134811 /* SpaceScene.swift in Sources */,
 				14D81DDE1C34EFA700134811 /* AppDelegate.swift in Sources */,
+				14D81DFE1C34F46800134811 /* ShipSprite.swift in Sources */,
+				14D81E011C34F48D00134811 /* PlayerAction.swift in Sources */,
+				14D81E031C34F4A800134811 /* Constants.swift in Sources */,
+				14D81E051C34F59200134811 /* HelperFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
