@@ -4,6 +4,8 @@ I originally wrote this to learn Swift 1.x. I've since updated and cleaned it up
 
 The code and architecture based on the original Objective-C [SpriteKit Physics Collisions](https://developer.apple.com/library/mac/samplecode/SpriteKit_Physics_Collisions/Introduction/Intro.html) sample from Apple.
 
+Some of the differences in this version from the Apple code, includes breaking out the constants into a seperate swift file, as well as a few other minor organizational changes.
+
 ## Player Controls
 
 * w or forward arrow :  **accelerate forward**
