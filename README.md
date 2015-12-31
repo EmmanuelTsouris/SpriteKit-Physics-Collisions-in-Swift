@@ -2,8 +2,8 @@
 
 I originally wrote this to learn Swift 1.x. Recently, I updated and cleaned it up for Swift 2.x and Xcode 7.
 
-It's based on the original Objective-C [SpriteKit Physics Collisions sample from Apple](https://developer.apple.com/library/mac/samplecode/SpriteKit_Physics_Collisions/Introduction/Intro.html):
-========================================================
+It's based on the original Objective-C sample from Apple.
+[SpriteKit Physics Collisions](https://developer.apple.com/library/mac/samplecode/SpriteKit_Physics_Collisions/Introduction/Intro.html)
 
 The example spawns two ships, one is under player control, the other can be used as a target:
 
