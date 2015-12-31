@@ -1,20 +1,18 @@
 # SpriteKit Physics Collisions in Swift
 
-I wrote this originally to learn Swift 1.2 and recently updated it an cleaned it up for Swift 2.x and Xcode 7. 
+I originally wrote this to learn Swift 1.x. Recently, I updated and cleaned it up for Swift 2.x and Xcode 7.
 
-It's based on the original Objective-C SpriteKit Physics Collisions sample from Apple:
-https://developer.apple.com/library/mac/samplecode/SpriteKit_Physics_Collisions/Introduction/Intro.html
+It's based on the original Objective-C [SpriteKit Physics Collisions sample from Apple](https://developer.apple.com/library/mac/samplecode/SpriteKit_Physics_Collisions/Introduction/Intro.html):
 ========================================================
 
 The example spawns two ships, one is under player control, the other can be used as a target:
 
-w or forward arrow :  accelerate forward
-a or left arrow    :  turn left
-d or right arrow   :  turn right
-s or back arrow    :  accelerate backwards
-space bar          :  fire a missile
-
-r                  :  reset the simulation
+*w or forward arrow :  accelerate forward
+*a or left arrow    :  turn left
+*d or right arrow   :  turn right
+*s or back arrow    :  accelerate backwards
+*space bar          :  fire a missile
+*r                  :  reset the simulation
 
 The MIT License (MIT)
 Copyright (c) 2015 Emmanuel Tsouris
