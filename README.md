@@ -15,4 +15,4 @@ The code and architecture based on the original Objective-C [SpriteKit Physics C
 
 ## License
 
-(SpriteKit-Physics-Collisions-in-Swift/LICENSE.md)[MIT License]
+(https://github.com/EmmanuelTsouris/SpriteKit-Physics-Collisions-in-Swift/LICENSE.md)[MIT License for SpriteKit Physics Collisions in Swift]
