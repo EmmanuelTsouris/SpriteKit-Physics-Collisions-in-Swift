@@ -6,12 +6,12 @@ The code and architecture based on the original Objective-C [SpriteKit Physics C
 
 ## Player Controls
 
-*w or forward arrow :  accelerate forward
-*a or left arrow    :  turn left
-*d or right arrow   :  turn right
-*s or back arrow    :  accelerate backwards
-*space bar          :  fire a missile
-*r                  :  reset the simulation
+* w or forward arrow :  accelerate forward
+* a or left arrow    :  turn left
+* d or right arrow   :  turn right
+* s or back arrow    :  accelerate backwards
+* space bar          :  fire a missile
+* r                  :  reset the simulation
 
 ## License
 
