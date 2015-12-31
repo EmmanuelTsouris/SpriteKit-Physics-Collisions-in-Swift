@@ -1,4 +1,4 @@
-# SpriteKit-Physics-Collisions-in-Swift
+# SpriteKit Physics Collisions in Swift
 
 I wrote this originally to learn Swift 1.2 and recently updated it an cleaned it up for Swift 2.x and Xcode 7. 
 
