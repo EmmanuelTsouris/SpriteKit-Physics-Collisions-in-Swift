@@ -3,7 +3,6 @@
 //  SpriteKitCollisionsSwift
 //
 //  Created by Emmanuel Tsouris on 11/6/15.
-//  Copyright © 2015 DigitalSand. All rights reserved.
 //
 //  The MIT License (MIT)
 //

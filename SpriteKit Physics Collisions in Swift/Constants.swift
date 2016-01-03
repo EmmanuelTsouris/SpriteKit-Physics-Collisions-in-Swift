@@ -3,11 +3,10 @@
 //  SpriteKit Physics Collisions in Swift
 //
 //  Created by Emmanuel Tsouris on 12/30/15.
-//  Copyright (c) 2015 EmmanuelTsouris. All rights reserved.
 //
 //  The MIT License (MIT)
 //
-//  Copyright (c) 2015 Emmanuel Tsouris
+//  Copyright (c) 2015 Emmanuel Tsouris.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
