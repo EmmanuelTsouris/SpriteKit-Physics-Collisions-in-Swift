@@ -14,7 +14,3 @@ Some of the differences in this version from the Apple code, includes breaking o
 * s or back arrow    :  **accelerate backwards**
 * space bar          :  **fire a missile**
 * r                  :  **reset the simulation**
-
-## License
-
-[MIT License for SpriteKit Physics Collisions in Swift](https://github.com/EmmanuelTsouris/SpriteKit-Physics-Collisions-in-Swift/LICENSE.md)
